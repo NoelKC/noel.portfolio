@@ -1,0 +1,25 @@
+
+
+
+@font-face { font-family: Melody; src: url('fonts/CuteMelody.otf'); } 
+.melody { font-family: Melody; font-size: 4.2em; }
+
+
+@font-face { font-family: Mono; src: url('fonts/Mominacute-Regular.ttf'); } 
+.mono { font-family: Mono; font-size: 4.2em; }
+
+@font-face { font-family: Dreamy; src: url('fonts/DreamyBubbleDEMO-DEMO.ttf'); } 
+.dreamy { font-family: Dreamy; font-size: 4.2em; }
+
+@font-face { font-family: Bluby; src: url('fonts/BlubyKids-Regular.otf'); } 
+.bluby { font-family: Bluby; font-size: 4.2em; }
+
+@font-face { font-family: Vandal; src: url('fonts/Vandalust.otf'); } 
+.vandal { font-family: Vandal; font-size: 4.2em; }
+
+@font-face { font-family: Earth2073; src: url('fonts/Earth2073.ttf'); } 
+.earth2073 { font-family: Earth2073; font-size: 4.2em; }
+
+
+@font-face { font-family: Earthquake; src: url('fonts/EARTHQUAKE.TTF'); } 
+.earthquake { font-family: Earthquake; font-size: 4.2em; }
