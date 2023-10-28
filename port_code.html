@@ -1,0 +1,421 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––– -->
+<title>NoelC Port. Code</title>
+
+<!-- Stuff from temp-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+<!-- Mobile Specific Metas ––––––––––––––––––––––––––––––––––––– -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT ––––––––––––––––––––––––––––––––––––––––------–––––––– -->
+<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+<!-- Added Sheets -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!-- CSS & JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+<script type="text/javascript"  src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>  
+<script type="text/javascript" src="css/overlaypopup.js"> </script>  
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/custom.css"> 
+<link rel="stylesheet" href="css/font.css"> 
+
+<!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="icon" type="image/png" href="images/icons/NBDoggo.jpg">
+
+<style>
+body, html  {
+color:rgb(0, 0, 0);
+background-color: rgb(71, 156, 199);
+height: 100%;
+font-family: "Inconsolata", sans-serif;
+}
+a:link {
+color: #2fff00;
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+color:  #b9ff09;
+}
+a:hover {
+text-decoration: none;
+color: #ff9009;
+}
+a:active {
+text-decoration: none;
+color: #47ec00;
+}
+p {
+text-indent:5%; 
+}
+
+/* text font */
+  @font-face { font-family: Melody; src: url('fonts/CuteMelody.otf'); } 
+  @font-face { font-family: Mono; src: url('fonts/Mominacute-Regular.ttf'); } 
+  @font-face { font-family: Dreamy; src: url('fonts/DreamyBubbleDEMO-DEMO.ttf'); } 
+  @font-face { font-family: Bluby; src: url('fonts/BlubyKids-Regular.otf'); } 
+  @font-face { font-family: Vandal; src: url('fonts/Vandalust.otf'); }
+  @font-face { font-family: Earth2073; src: url('fonts/Earth2073.ttf'); } 
+  @font-face { font-family: Earthquake; src: url('fonts/EARTHQUAKE.TTF'); } 
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/my_backgrounds/space_splat.jpeg");
+  min-height: 75%;
+}
+
+.footerimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/my_backgrounds/space_splat.jpeg");
+  min-height: 25%;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s4">
+      <a href="home.html" class="w3-button w3-block w3-black" style="font-family: Mono; font-size: 25px">HOME</a>
+    </div>
+    <div class="w3-col s4">
+      <a href="about.html" class="w3-button w3-block w3-black" style="font-family: Mono; font-size: 25px">ABOUT</a>
+    </div>
+    <div class="w3-col s4">
+      <a href="portfolio.html" class="w3-button w3-block w3-black" style="font-family: Mono; font-size: 25px">PORTFOLIO</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag" style="font-family: Mono; font-size: 20px" > </span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-family: Melody; font-size: 20px">Portfolio</span>
+    <br>
+    <span class="w3-text-white" style="font-family: Melody; font-size: 130px">Code</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-tag w3-text-white" style="font-family: Mono; font-size: 20px"> </span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-large">
+
+<!-- Pagination Top-->
+<div class="w3-center ">
+  <div class="w3-bar">
+    <a
+      href="port_other.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 25px"
+      >«</a
+    >
+    <a
+      href="port_code.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >Coding</a
+    >
+    <!-- <a
+      href="port_remix.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >3D Remix</a
+    > -->
+    <a
+      href="port_digital.html"
+      class="w3-bar-item w3-hover-black w3-button"
+      style="font-family: Dreamy; font-size: 20px"
+      >Digital Art</a
+    >
+    <a
+      href="port_video.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >Video</a
+    > 
+    <a 
+      href="port_other.html" 
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >Other Works</a
+    >
+    <a
+      href="port_digital.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 25px"
+      >»</a
+      >
+  </div>
+</div>
+
+<br><br>
+<!-- Warning Container -->
+<div class="w3-container" id="warning">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center"><span class="w3-wide w3-text-red" style="font-family: Dreamy; font-size: 25px">Warning!</span></h5>
+    <p class="w3-center" style="font-family: Bluby; font-size: 25px"> You will need to computer to play some of these. However, there are photo and video examples. </p>
+  </div>
+</div>
+<br><br>
+
+<!-- Paint Program Container -->
+  <!-- Title-->
+<div class="w3-container" id="paint_pro">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center"><span class="w3-wide w3-text-white" style="font-family: Dreamy; font-size: 25px">Paint Program</span></h5>
+    <h5 class="w3-center"><span class="w3-wide w3-text-white" style="font-family: Dreamy; font-size: 15px">Sep 13, 2023</span></h5>
+  </div>
+  <!-- The column for showing the image and the link-->
+<div class="row section">      
+  <div class="five columns" >
+    <a href="p5_code/paint/index.html" target="_blank"> <img src="images/Pro1_Paint_Images/Pro1_Paint_Mix1.png"   class="w3-round-xxlarge center" alt="a overall example of the paint program" style="width:100%" /> </a>
+  </div>
+  <br> <br>
+  <!-- Text Columns-->
+  <div class="seven columns">
+    <p style="font-family: Bluby; font-size: 25px"> 
+      This is a simple paint program that I made. I first started experimenting with lines. 
+      My first brush was Waluigi, something really simple that used random colors with slightly random line placement. 
+      I liked the sort of 3D effect it was making so I experimented more and created the Star brush. 
+      Although I named it Star, when used it resembles a pipe cleaner or a <a href="https://m.media-amazon.com/images/I/81xFDc6XIOL.jpg" 
+      style="font-family: Bluby; font-size: 25px" target="_blank">Worm on a String</a>. The Star brush is one of my favorites. 
+      The multiple colors give it the slight 3D look I was looking for. 
+    </p>
+    <p style="font-family: Bluby; font-size: 25px"> 
+      Afterwards, I experimented with images creating Smally, a brush made out of one image of my dog. 
+      When that worked I moved to creating Warrior Chess, mixing an image with drawing tools around it to look like streamers. 
+      I tried to mimic the shiny streamer look by randomizing the colors and limiting them to a certain range. 
+      It worked really well and I wanted to continue to experiment with randomizing shapes and sizes. 
+    </p>
+  </div>
+  <div class="eleven columns">
+    <br><br>
+    <p style="font-family: Bluby; font-size: 25px">
+      Leading me to create Craz Circle and Mystic Triangle. I first created Craz Circle, which is my favorite brush. The bright neon colors were 
+      inspired by  80s bowling alley carpet patterns and the randomized opacity is supposed to make it look like bubbles. And when you hold it in 
+      place it makes a cool ninja star pattern. The Mystic Triangle brush was harder for me since it was tough trying to randomize the triangle 
+      positions and have them keep their shape. It took a lot of trial and error but I finally got it to work. Sometimes the triangles do look like
+      lines but the majority of the time they keep their triangle shape. It is really messy but it is nice to look at.
+      The last two brushes I made, Wooper Whopper and Illuminati, were to combine both concepts. They were mainly just for fun and to see how I 
+      could incorporate images more into the brush. They are fun to mess with and I really like how these turned out as well.
+    </p>
+    <p style="font-family: Bluby; font-size: 25px"> 
+      Overall, I love all of the brushes I made. They don’t work well to draw an image or drawing with but they are fun to play with and make 
+      a cool background with. 
+    </p> 
+  </div>
+</div>
+  <div class=" w3-center">
+    <a href="p5_code/paint/index.html" style="font-family: Bluby; font-size: 35px" >Run Paint Program</a> <br>
+    <a href="p5_code/paint/sketch.js" style="font-family: Bluby; font-size: 35px" >Code for Paint Program</a> <br>
+  </div>
+</div>
+<br>
+  <!-- Images-->
+<p class="w3-center" style="font-family: Bluby; font-size: 23px"> Below are some sample images of the program </p>
+<p class="w3-center" style="font-family: Bluby; font-size: 23px"> Click on them to full screen</p>
+<div class="row section">      
+  <div class="six columns w3-center" style="font-family: Bluby; font-size: 28px">
+    <!-- Ex of CrazCircle Brush<a href="images/Pro1_Paint_Images/CrazCircle2.png" > <img src="images/Pro1_Paint_Images/CrazCircle2.png"   class="w3-round-xlarge center" alt="a pic showing an example of the pain program" style="width:40%" /> </a> <br>
+    Ex of Star Brush<a href="images/Pro1_Paint_Images/Star2.png" > <img src="images/Pro1_Paint_Images/Star2.png"   class="w3-round-xlarge center" alt="a pic showing an example of the pain program" style="width:40%" /> </a> -->
+  
+    <a href="images/Pro1_Paint_Images/Pro1_Paint_Images1.png" target="_blank"> <img src="images/Pro1_Paint_Images/Pro1_Paint_Images1.png"   class="w3-round-xlarge center" alt="first sample of the brushes" style="width:90%" /> </a> <br>
+  </div>
+
+  <div class="six columns w3-center" style="font-family: Bluby; font-size: 28px" >
+    <!-- Ex of CrazCircle Brush<a href="images/Pro1_Paint_Images/CrazCircle3.png" > <img src="images/Pro1_Paint_Images/CrazCircle3.png"   class="w3-round-xlarge center" alt="a pic showing an example of the pain program" style="width:40%" /> </a> <br>
+    Ex of Star Brush<a href="images/Pro1_Paint_Images/Star3.png" > <img src="images/Pro1_Paint_Images/Star3.png"   class="w3-round-xlarge center" alt="a pic showing an example of the pain program" style="width:40%" /> </a> -->
+
+    <a href="images/Pro1_Paint_Images/Pro1_Paint_Images2.png" target="_blank"> <img src="images/Pro1_Paint_Images/Pro1_Paint_Images2.png"   class="w3-round-xlarge center" alt="second sample of the brushes" style="width:90%" /> </a> <br>
+  </div>
+</div>
+</div>
+<br> <br>
+
+<!-- Cloud Program Container -->
+<div class="w3-container" id="cloudy_rainy">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-large"><span class="w3-wide w3-text-white" style="font-family: Dreamy; font-size: 25px">Cloudy & Rainy Day</span></h5>
+    <h5 class="w3-center"><span class="w3-wide w3-text-white" style="font-family: Dreamy; font-size: 15px">Oct 16, 2023</span></h5>
+  </div>
+  <!-- The column for showing the image and the link-->
+<div class="row section">      
+  <div class="five columns" >
+    <a href="p5_code/clouds/index.html" target="_blank"> <img src="images/Pro2_Images/Pro_2_Rain_Clouds.jpg"   class="w3-round-xxlarge center" alt="shows rain clouds and some rain" style="width:100%" /> </a>
+  </div>
+  <br><br>
+  <!-- Text Columns-->
+  <div class="seven columns">
+    <p style="font-family: Bluby; font-size: 25px"> 
+      In this piece I combined two algorithms to make a coding remix. The original code comes from p5.js and they are called 
+      <a href="https://p5js.org/examples/simulate-particle-system.html" style="font-family: Bluby; font-size: 25px" target="_blank">Particle System</a> and 
+      <a href="https://p5js.org/examples/math-sine-wave.html" style="font-family: Bluby; font-size: 25px" target="_blank">Sine Wave</a>. 
+      I used these to give the impression of weather changing over time.
+ 
+    </p>
+    <p style="font-family: Bluby; font-size: 25px"> 
+      I first got inspiration from the Particle System. My first thought when I saw it was that it looked like rain. So I went through it to change the color 
+      and shape of the ellipses. Turning it blue and randomizing the size of the ellipses to make them look like raindrops.
+    </p>
+  </div> 
+  
+  <div class="eleven columns">
+    <br> <br>
+    <p style="font-family: Bluby; font-size: 25px">
+      At first I had static clouds but my professor suggested that I should make the clouds move as well. As suggested, I started experimenting 
+      with Sine Wave to see how I can make it look like clouds. I made the Sine Wave into a class and replaced the ellipse with a cloud vector. 
+      I also messed with the calcWave and rederWave parts of the class to make it so I can edit them when I call them in the draw function. This allowed me more control 
+      of the Sine Waves when I called them in. Making so they weren’t all the same.
+      This was difficult to work on since I didn’t fully understand the code but it was fun to reverse engineer it and find out what I could change. 
+    </p>
+  </div>
+</div>
+  <div class=" w3-center">
+    <a href="p5_code/clouds/index.html" style="font-family: Bluby; font-size: 35px" >Run Cloudy & Rainy Day</a> <br>
+    <a href="p5_code/clouds/sketch.js" style="font-family: Bluby; font-size: 35px" >Code for the system</a> <br>
+    <a href="p5_code/clouds/classes.js" style="font-family: Bluby; font-size: 35px" >Code for the classes</a> <br>
+  </div>
+</div>
+<br>
+  <!-- Video--> 
+  <p class="w3-center" style="font-family: Bluby; font-size: 30px"> Below is a video of the program </p>
+  <div class=" w3-center" >
+    <iframe width="50%" height="500" src="https://www.youtube.com/embed/maVHc4mS09k?si=ZbHXVEiOOzBYxPq2" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+    <p style="font-family: Bluby; font-size: 25px"> If the video above doesn't work <a href="https://youtu.be/maVHc4mS09k" target="_blank" style="font-family: Bluby; font-size: 25px">here</a> 
+      is a link to Youtube.</p>
+  </div>
+</div>
+<br> <br>
+
+<!-- Pikmin Container -->
+<div class="w3-container" id="cloudy_rainy">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-large"><span class="w3-wide w3-text-white" style="font-family: Dreamy; font-size: 25px">Pikmin</span></h5>
+    <h5 class="w3-center"><span class="w3-wide w3-text-white" style="font-family: Dreamy; font-size: 15px">Sep 25, 2023</span></h5>
+  </div>
+  <!-- The column for showing the image and the link-->
+<div class="row section">      
+  <div class="five columns" >
+    <a href="p5_code/pikmin/index.html" target="_blank"> <img src="images/Ex_4_Pikmin_IC.jpg"   class="w3-round-xxlarge center" alt="shows pikmin looking creatures moving across the screen" style="width:100%" /> </a>
+  </div>
+  <br> 
+  <!-- Text Columns-->
+  <div class="seven columns">
+    <p style="font-family: Bluby; font-size: 25px"> 
+      This piece is heavily inspired by Pikmin. I wanted to make a small interactive piece with these little guys since they are from one of my favorite games 
+      (<a href="https://pikmin.nintendo.com/" target="_blank" style="font-family: Bluby; font-size: 25px">here</a> are some reference photos on the Nintendo website and 
+      <a href="https://pikmin.nintendo.com/en/comics/#!/too-stuck-to-pluck" target="_blank" style="font-family: Bluby; font-size: 25px">here</a> is the link to the comics, 
+      they are still updating them!). 
+    </p>
+    <p style="font-family: Bluby; font-size: 25px"> 
+      This was my first time working with classes but the process was pretty straight forward. However, I did make some mistakes earlier in the process that became bigger 
+      problems later on. One of these problems was the placement of the translate function that messed up the x and y placement along with the rotation. Making some of the body 
+      parts of the Pikmin unusable at times. That was probably what took the longest to work on and fix. 
+    </p>
+    <p style="font-family: Bluby; font-size: 25px">
+      After that was fixed everything was smooth sailing. I had a lot of fun making all of these little guys and getting them to move across the screen. 
+      Using classes instead of vectors definitely made the process of making multiple Pikmin easier. This was a really fun coding project to work on and 
+      I am really happy with how it turned out 
+    </p>
+  </div> 
+</div>
+  <div class=" w3-center">
+    <a href="p5_code/pikmin/index.html" style="font-family: Bluby; font-size: 35px" >Run Pikmin</a> <br>
+    <a href="p5_code/pikmin/sketch.js" style="font-family: Bluby; font-size: 35px" >Code for the system</a> <br>
+    <a href="p5_code/pikmin/pikmin.js" style="font-family: Bluby; font-size: 35px" >Code for the pikmin class</a> <br>
+  </div>
+</div>
+<br>
+
+
+<!-- Ending Container -->
+<div class="w3-container" id="end">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-wide" style="font-family: Dreamy; font-size: 25px">Explore some more works below!</span></h5>
+  </div>
+</div>
+
+<!-- Pagination Bottom-->
+<div class="w3-center ">
+  <div class="w3-bar">
+    <a
+      href="port_other.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 25px"
+      >«</a
+    >
+    <a
+      href="port_code.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >Coding</a
+    >
+    <!-- <a
+      href="port_remix.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >3D Remix</a
+    > -->
+    <a
+      href="port_digital.html"
+      class="w3-bar-item w3-hover-black w3-button"
+      style="font-family: Dreamy; font-size: 20px"
+      >Digital Art</a
+    >
+    <a
+      href="port_video.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >Video</a
+    > 
+    <a 
+      href="port_other.html" 
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >Other Works</a
+    >
+    <a
+      href="port_digital.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 25px"
+      >»</a
+      >
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="footerimg w3-center w3-text-white w3-padding-48 w3-large">
+  <p style="font-family: Bluby; font-size: 25px">Made with <a href="https://code.visualstudio.com/" title="VisualStudioCode" target="_blank" style="font-family: Bluby; font-size: 25px">Visual Studio Code</a></p>
+  <p style="font-family: Bluby; font-size: 25px">Powered by <a href="https://github.com/" title="GitHub" target="_blank" style="font-family: Bluby; font-size: 25px">GitHub</a></p>
+  <p style="font-family: Bluby; font-size: 25px">Templete by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" style="font-family: Bluby; font-size: 25px">w3.css</a></p>
+  <p style="font-family: Bluby; font-size: 25px">2023</a></p>
+</footer>
+</body>
+</html>
