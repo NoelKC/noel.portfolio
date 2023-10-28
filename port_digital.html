@@ -1,0 +1,389 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––– -->
+<title>NoelC Port. Digital</title>
+
+<!-- Stuff from temp-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+<!-- Mobile Specific Metas ––––––––––––––––––––––––––––––––––––– -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT ––––––––––––––––––––––––––––––––––––––––------–––––––– -->
+<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+<!-- Added Sheets -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!-- CSS & JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+<script type="text/javascript"  src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>  
+<script type="text/javascript" src="css/overlaypopup.js"> </script>  
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/custom.css"> 
+<link rel="stylesheet" href="css/font.css"> 
+
+<!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="icon" type="image/png" href="images/icons/NBDoggo.jpg">
+
+<style>
+body, html  {
+color:rgb(0, 0, 0);
+background-color: rgb(71, 156, 199);
+height: 100%;
+font-family: "Inconsolata", sans-serif;
+}
+a:link {
+color: #2fff00;
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+color:  #b9ff09;
+}
+a:hover {
+text-decoration: none;
+color: #ff9009;
+}
+a:active {
+text-decoration: none;
+color: #47ec00;
+}
+p {
+text-indent:5%; 
+}
+
+/* text font */
+  @font-face { font-family: Melody; src: url('fonts/CuteMelody.otf'); } 
+  @font-face { font-family: Mono; src: url('fonts/Mominacute-Regular.ttf'); } 
+  @font-face { font-family: Dreamy; src: url('fonts/DreamyBubbleDEMO-DEMO.ttf'); } 
+  @font-face { font-family: Bluby; src: url('fonts/BlubyKids-Regular.otf'); } 
+  @font-face { font-family: Vandal; src: url('fonts/Vandalust.otf'); }
+  @font-face { font-family: Earth2073; src: url('fonts/Earth2073.ttf'); } 
+  @font-face { font-family: Earthquake; src: url('fonts/EARTHQUAKE.TTF'); } 
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/my_backgrounds/space_splat.jpeg");
+  min-height: 75%;
+}
+
+.footerimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/my_backgrounds/space_splat.jpeg");
+  min-height: 25%;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s4">
+      <a href="home.html" class="w3-button w3-block w3-black" style="font-family: Mono; font-size: 25px">HOME</a>
+    </div>
+    <div class="w3-col s4">
+      <a href="about.html" class="w3-button w3-block w3-black" style="font-family: Mono; font-size: 25px">ABOUT</a>
+    </div>
+    <div class="w3-col s4">
+      <a href="portfolio.html" class="w3-button w3-block w3-black" style="font-family: Mono; font-size: 25px">PORTFOLIO</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag" style="font-family: Mono; font-size: 20px" > </span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-family: Melody; font-size: 20px">Portfolio</span>
+    <br>
+    <span class="w3-text-white" style="font-family: Melody; font-size: 130px">Digital Art</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-tag w3-text-white" style="font-family: Mono; font-size: 20px"> </span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-large">
+
+<!-- Pagination Top-->
+<div class="w3-center ">
+  <div class="w3-bar">
+    <a
+      href="port_code.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 25px"
+      >«</a
+    >
+    <a
+      href="port_code.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >Coding</a
+    >
+    <!-- <a
+      href="port_remix.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >3D Remix</a
+    > -->
+    <a
+      href="port_digital.html"
+      class="w3-bar-item w3-hover-black w3-button"
+      style="font-family: Dreamy; font-size: 20px"
+      >Digital Art</a
+    >
+    <a
+      href="port_video.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >Video</a
+    > 
+    <a 
+      href="port_other.html" 
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >Other Works</a
+    >
+    <a
+      href="port_video.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 25px"
+      >»</a
+      >
+  </div>
+</div>
+
+<br><br> 
+<!-- Glitch Art Container -->
+  <!-- Title-->
+<div class="w3-container" id="glitch">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-large"><span class="w3-wide w3-text-white" style="font-family: Dreamy; font-size: 25px">Glitch Art <br></span></h5>
+  </div>
+<!--Image -->
+<div class="row section">      
+  <div class="six columns w3-center" style="font-family: Bluby; font-size: 28px">
+    <a href="images/artworks/Winged_Victory_of_Samothrace_OG.jpg" target="_blank"> 
+      <img src="images/artworks/Winged_Victory_of_Samothrace_OG.jpg"   class="w3-round-xxlarge center" alt="picture of the statue Winged Victory of Samothrace" style="width:50%" /> </a>
+      <figcaption style="font-family: Bluby; font-size: 20px"> Winged Victory of Samothrace, Orignal Image</figcaption> <br> 
+    <a href="images/artworks/mother_OG.JPG" target="_blank">
+      <img src="images/artworks/mother_OG.JPG"   class="w3-round-xxlarge center" alt="picture of my mom in her regalia (Aztec dancing outfit) for a parade in San Francisco" style="width:50%" /></a>
+      <figcaption style="font-family: Bluby; font-size: 20px"> Withstanding, Orignal picture</figcaption> <br> 
+  </div>
+  <div class="six columns w3-center" style="font-family: Bluby; font-size: 28px">
+    <a href="images/artworks/Winged_Victory_of_Samothrace_G.jpg" target="_blank">
+      <img src="images/artworks/Winged_Victory_of_Samothrace_G.jpg"   class="w3-round-xxlarge center" alt="picture of the statue Winged Victory of Samothrace with many glitch effects" style="width:50%" /></a>
+      <figcaption style="font-family: Bluby; font-size: 20px"> Winged Victory of Samothrace, Glitched, Feb 13, 2023</figcaption> <br> 
+    <a href="images/artworks/mother_G1.jpg" target="_blank">
+      <img src="images/artworks/mother_G1.jpg"   class="w3-round-xxlarge center" alt="picture of my mom in her regalia (Aztec dancing outfit) for a parade" style="width:50%"/></a>
+      <figcaption style="font-family: Bluby; font-size: 20px">  Withstanding, Glitched, Feb 13, 2023 </figcaption> <br> 
+  </div>
+</div>
+<div class="eleven columns">
+  <p style="font-family: Bluby; font-size: 25px">
+    To make this piece I used Adobe Photoshop and Audacity. I put the images into Photoshop and saved the files as audio so I was able to put them into Audacity. 
+    Afterwards, I used multiple audio effects on the audio and then exported them. I then got the image by using Photoshop to convert it back into an image. 
+    This was all about experimenting with glitched images and the different effects they can give. 
+    It was a very interesting experience which I documented <a href="https://docs.google.com/document/d/1eZ51QOaC-8KYy5-YpkKRtR7N1tHI6mrV2PN6bpL_dyU/edit?usp=sharing" 
+    style="font-family: Bluby; font-size: 25px" target="_blank">here</a> in more detail. I also have a lot more experiment images 
+    <a href="https://drive.google.com/drive/folders/1PjbFUQ6inkFfV-cp0XVmHtGkmTOJHbrN?usp=drive_link" style="font-family: Bluby; font-size: 25px" target="_blank" > here</a> 
+    in Google Drive. I had a lot of fun seeing all of the different effects I could achieve from using Audacity in this way. 
+
+  </p> 
+</div>
+</div>
+<br>
+
+<!-- Photography Container -->
+  <!-- Title-->
+  <div class="w3-container" id="photography">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center w3-padding-large"><span class="w3-wide w3-text-white" style="font-family: Dreamy; font-size: 25px">Photography <br></span></h5>
+    </div>
+  <!--Image -->
+  <div class="row section">      
+    <div class="six columns w3-center" style="font-family: Bluby; font-size: 28px">
+      <a href="images/artworks/MMIP_Awareness_1.JPG" target="_blank">
+      <img src="images/artworks/MMIP_Awareness_1.JPG"   class="w3-round-xxlarge center" alt="picture of me and my mother wearing all black with red handprints over our mouths" style="width:60%" /></a>
+        <figcaption style="font-family: Bluby; font-size: 20px"> MMIP Awareness, Orignal Image, Dec 6, 2022</figcaption> <br> 
+    </div>
+    <div class="six columns w3-center" style="font-family: Bluby; font-size: 28px">
+      <a href="images/artworks/MMIP_Awareness_2.JPG" target="_blank">
+      <img src="images/artworks/MMIP_Awareness_2.JPG"   class="w3-round-xxlarge center" alt="picture of me and my mother wearing all black 
+      with a black and white filter and the red handprints over our mouths are the only things in color " style="width:60%" /></a>
+        <figcaption style="font-family: Bluby; font-size: 20px"> MMIP Awareness, Edit, Dec 6, 2022</figcaption> <br> 
+    </div>
+  </div>
+  <div class="eleven columns">
+    <p style="font-family: Bluby; font-size: 25px">
+      In this piece I wanted to bring more awareness to the Missing or Murdered Indigenous Persons movement. I wrote a more in depth artist statement 
+      <a href="https://docs.google.com/document/d/1DQj3e3HCmqe1fBdBnAG02VEdoxIm7IJCC0E_AU_7km8/edit?usp=sharing" style="font-family: Bluby; font-size: 25px" target="_blank">here</a>. 
+      To summarize, many cases of missing or murdered Indigenous people have been ignored for decades. So many are fighting back trying to bring awareness to the issue 
+      and bring attention to the injustice. Being Indigenous myself I did a performance piece with my mom and documented in photos. 
+    </p>
+  </div>
+  </div>
+  <br>
+
+<!-- SpongePop Container -->
+  <!-- Title-->
+  <div class="w3-container" id="illustrator">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center w3-padding-large"><span class="w3-wide w3-text-white" style="font-family: Dreamy; font-size: 25px">Illustrator<br></span></h5>
+    </div>
+  <!--Image -->
+  <div class="w3-center">    
+    <a href="images/artworks/sponge_pop.png" target="_blank">
+      <img src="images/artworks/sponge_pop.png"   class="w3-round-xxlarge center" alt="a vector art image of a spongebob popsicle ad" style="width:50%" /></a>  
+      <figcaption style="font-family: Bluby; font-size: 20px"> Spongepop, Fed 7, 2023</figcaption> <br> 
+  </div>
+  <div class="eleven columns">
+    <p style="font-family: Bluby; font-size: 25px">
+      I made a fake Spongebob popsicle ad with Adobe Illustrator. This was one of my first attempts with Illustrator. It was a bit difficult since I am use to Adobe Photoshop. 
+      But I was able to work through it and I really enjoy the ending piece.  
+    </p>
+  </div>
+  </div>
+  <br>
+
+<!-- The Unicorn Container -->
+  <!-- Title-->
+  <div class="w3-container" id="photoshop">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center w3-padding-large"><span class="w3-wide w3-text-white" style="font-family: Dreamy; font-size: 25px">Photoshop<br></span></h5> 
+    </div>
+  <!--Image -->
+  <div class="w3-center">      
+    <a href="images/artworks/NoelC-TheUnicorn-PhotoshopEdit.png" target="_blank">
+      <img src="images/artworks/NoelC-TheUnicorn-PhotoshopEdit.png"   class="w3-round-xxlarge center" alt="a photoshopped image of a two crochet unicorns about to get hit by a 
+      wave made out of paper and a boat resembling Noah's ark" style="width:50%" /></a>
+      <figcaption style="font-family: Bluby; font-size: 20px"> The Unicorn, May 7, 2023</figcaption> <br> 
+  </div>
+  <div class="eleven columns">
+    <p style="font-family: Bluby; font-size: 25px">
+      This is a found object piece, where I found a book around my house and used it to make a piece. The book I found was Where the Sidewalk Ends by 
+      Shel Silverstein and it brought back a lot of memories. This was my favorite poem as a kid and I wanted to pay homage to it. 
+      The boat was made out of pieces of wood nailed together while the roof of it is the book cover. The water is curled book pages and the unicorns are 
+      crocheted out of yarn. After I took pictures using a green screen I edited them using Adobe Photoshop. 
+
+    </p>
+  </div>
+  </div>
+  <br>
+  
+<!-- 3D Remix Container -->
+<!-- Title-->
+  <div class="w3-container" id="3dRemix">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center w3-padding-large"><span class="w3-wide w3-text-white" style="font-family: Dreamy; font-size: 25px">3D Remix <br></span></h5>
+    </div>
+  <!--Image -->
+  <div class="row section">      
+    <div class="six columns w3-center" style="font-family: Bluby; font-size: 28px">
+      <a href="images/artworks/SpOoKyBoO_1.png" target="_blank">
+      <img src="images/artworks/SpOoKyBoO_1.png"   class="w3-round-xxlarge center" alt="picture of a remixed model with Boo from mario wearing a 
+      cow skull with horns. Below him is a warp pipe coming out of a human skull with roses ontop of a rock platform" style="width:90%" /></a>
+        <figcaption style="font-family: Bluby; font-size: 20px"> Spooky Boo, April 6, 2023</figcaption> <br> 
+    </div>
+    <div class="six columns w3-center" style="font-family: Bluby; font-size: 28px">
+      <a href="images/artworks/SpOoKyBoO_final.png" target="_blank">
+      <img src="images/artworks/SpOoKyBoO_final.png"   class="w3-round-xxlarge center" alt="picture of a remixed model with Boo from mario wearing a 
+      cow skull with horns. Below him is a warp pipe coming out of a human skull with roses ontop of a rock platform. In this photo Boo has a glow effect" style="width:90%" /></a>
+        <figcaption style="font-family: Bluby; font-size: 20px"> Spooky Boo, with Glow effect, April 6, 2023</figcaption> <br> 
+    </div>
+  </div>
+  <div class="eleven columns">
+    <p style="font-family: Bluby; font-size: 25px">
+      This is a 3D remix where I grabbed 3D models online and used them to make a new 3D model. All of the 3D models are listed 
+      <a href="https://docs.google.com/document/d/1EGYy5lUN0ZcttTebS9MHz-6eECdfI7DmswwgVbYwac8/edit?usp=sharing" style="font-family: Bluby; font-size: 25px" target="_blank">here</a>
+      along with a short story I wrote to go with the model. I did have to break models up into pieces, like the Boo, so I could color and texture the different pieces differently. 
+      For the Bo model I had to break the eyes, tongue, teeth, and body apart. But I had fun working on this and figuring out how to work with 3D models  
+    </p>
+  </div>
+  </div>
+  <br>
+
+
+<!-- Ending Container -->
+<div class="w3-container" id="end">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-wide" style="font-family: Dreamy; font-size: 25px">Explore some more works below!</span></h5>
+  </div>
+</div>
+
+<!-- Pagination Bottom-->
+<div class="w3-center ">
+  <div class="w3-bar">
+    <a
+      href="port_code.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 25px"
+      >«</a
+    >
+    <a
+      href="port_code.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >Coding</a
+    >
+    <!-- <a
+      href="port_remix.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >3D Remix</a
+    > -->
+    <a
+      href="port_digital.html"
+      class="w3-bar-item w3-hover-black w3-button"
+      style="font-family: Dreamy; font-size: 20px"
+      >Digital Art</a
+    >
+    <a
+      href="port_video.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >Video</a
+    > 
+    <a 
+      href="port_other.html" 
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 20px"
+      >Other Works</a
+    >
+    <a
+      href="port_video.html"
+      class="w3-bar-item w3-button w3-hover-black"
+      style="font-family: Dreamy; font-size: 25px"
+      >»</a
+      >
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="footerimg w3-center w3-text-white w3-padding-48 w3-large">
+  <p style="font-family: Bluby; font-size: 25px">Made with <a href="https://code.visualstudio.com/" title="VisualStudioCode" target="_blank" style="font-family: Bluby; font-size: 25px">Visual Studio Code</a></p>
+  <p style="font-family: Bluby; font-size: 25px">Powered by <a href="https://github.com/" title="GitHub" target="_blank" style="font-family: Bluby; font-size: 25px">GitHub</a></p>
+  <p style="font-family: Bluby; font-size: 25px">Templete by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" style="font-family: Bluby; font-size: 25px">w3.css</a></p>
+  <p style="font-family: Bluby; font-size: 25px">2023</a></p>
+</footer>
+</body>
+</html>
